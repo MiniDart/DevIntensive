@@ -5,11 +5,6 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
               tools:context=".ui.activities.MainActivity">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="170dp"
-        android:src="@drawable/ava_final"
-        android:scaleType="centerCrop"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
