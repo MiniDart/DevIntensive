@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
@@ -214,6 +221,7 @@
         android:background="@color/grey_light"
         android:layout_marginLeft="@dimen/size_large_72"/>
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -226,7 +234,7 @@
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="@dimen/size_large_72"
+            android:layout_height="wrap_content"
             android:gravity="bottom"
             android:layout_marginRight="@dimen/spacing_normal_16"
             android:layout_marginLeft="@dimen/spacing_medium_32">
@@ -236,13 +244,15 @@
                 <EditText
                     android:id="@+id/about_et"
                     android:hint="О себе"
-                    android:inputType="text"
-                    android:text="Информация"
-                style="@style/data_text"/>
+                    android:inputType="textMultiLine"
+                    android:text="Мясные и медные короли, железнодорожные королевы, принцы жевательной резинки и принцессы долларов увлекаются сейчас Бахом, Брамсом и Шостаковичем. Почему их привлекли одновременно глубокий и трудный Бах, холодный Брамс и бурный иронический Шостакович, – они, конечно, не знают, не желают знать и не могут знать. Через год они безумно, до одурения («Ах, это такое сильное, захватывающее чувство!») увлекутся одновременно Моцартом, Чайковским и Прокофьевым."
+                    style="@style/data_text"/>
             </android.support.design.widget.TextInputLayout>
 
         </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
+</ScrollView>
+</android.support.v4.widget.NestedScrollView>
 
